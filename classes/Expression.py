@@ -89,11 +89,6 @@ class Expression:
         solution1 = (-1 * self.b) - discriminantSqrt
         solution2 = (-1 * self.b) + discriminantSqrt
 
-        # print(f'denominator : {denominator}')
-        # print(f'discriminantSqrt : {discriminantSqrt}')
-        # print(f'solution1 {solution1}')
-        # print('solution1 : %.6f' % solution1)
-        # print('solution2 : %.6f' % solution2)
         if ('s' in self.options):
             print(f'\nSolution steps:')
             print(f'Step 1:')
@@ -105,7 +100,8 @@ class Expression:
             print(f'Step 2:')
             print(f'- apply quadratic equation formula (-b ± sqrt(b^2 - 4ac) / 2a)')
             print(f'- or (-b ± sqrt(discriminant) / 2a)')
-            print(f'- a = {self.a} b = {self.b} c = {self.c} discriminant = {self.discriminant}')
+            print(
+                f'- a = {self.a} b = {self.b} c = {self.c} discriminant = {self.discriminant}')
             print(f'- -({self.b}) ± sqrt({self.discriminant}) / 2 * {self.a})')
             print(f'\n')
         if (self.discriminant > 0):
@@ -121,11 +117,6 @@ class Expression:
         else:
             print('Discriminant is equal to 0, the solution is:')
             print('%.6f' % (solution1 / denominator))
-        # self.printDiscrimant()
-        # print("%.6f" % (-self.b / (2 * self.a))+" + i * %.6f" % (ft_sqrt(-self.discriminant) / (2 * self.a)))
-        # print("%.6f" % (-self.b / (2 * self.a))+" - i * %.6f" % (ft_sqrt(-self.discriminant) / (2 * self.a)))
-        # print('%.6f' % (solution1 / denominator))
-        # print('%.6f' % (solution2 / denominator))
 
     def solver_one_degree(self):
         solution = (-1 * self.c) / self.b

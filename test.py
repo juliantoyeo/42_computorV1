@@ -60,4 +60,3 @@ if __name__ == '__main__':
     expression = parseArgv(["", options, exp])
     if (expression):
         expression.solver()
-    # print(f'\n')
