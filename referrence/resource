@@ -1,0 +1,116 @@
+polynomials basic explaination, a very good video to begin this project if you have already forgot what a polynomials is
+https://www.youtube.com/watch?v=ffLLmV4mZwU
+
+simplifying polynomials
+https://www.youtube.com/watch?v=DKC74YKJpNY&t=34s
+
+factoring polynomials
+https://www.youtube.com/watch?v=KUMhpKGwpCY
+
+discriminant
+https://www.youtube.com/watch?v=6fU9ZgwbU74
+
+solution
+https://www.cuemath.com/algebra/quadratic-equations/
+
+Note:
+
+Coefficient, Variable
+Example:
+2x
+2 -> Coefficient
+x -> Variable
+
+Terms = the combianation of Coefficient and Variable, (2x) is a Terms
+
+Find like Terms
+Example:
+2x^2 + 3x + 5 + 1x
+like Terms = 3x, 1x
+
+Negative Coefficient
+Example:
+2x^2 - 6x + 6 can be interprated as:
+2x^2 + (-6)x + 6
+Dont treat "-" sign as minus, but treat it as a indicator that the Coefficient attached to it is a Negative one.
+
+To calculate discriminant
+D = b^2 - 4ac
+a, b and c each represent the Coefficient of each terms in the equation
+D < 0 = Negative discriminant with 2 imaginary solution
+D > 0 = Positive discriminant with 2 real solution
+D = 0 = 1 real solution
+
+##############################
+Factoring a polynomials // just for reading and understanding, not really needed to solve this project
+
+Example:
+x^2 - 9 is the same as x^2 + 0x^1 - 9
+
+Find the const (the terms without Variable) which is (-9) in this example
+Find the factor of (-9) =
+1 * -9
+-1 * 9
+-3 * 3
+3 * -3
+
+Test every pair to find the right solution, for example here we use the pair of (-3 * 3)
+Open up 2 pair of parantheses
+(     )(     )
+Factor the 1st terms, in this case x^2 which will give us (x * x)
+Put each of the result into the pairs of parantheses
+(x    )(x    )
+Now put in the example factor of (-9) that we pick earlier (-3 * 3)
+Put each of the result into the pairs of parantheses like what we did earlier
+(x - 3)(x + 3)
+
+Now we test if this factored form is the correct one.
+First we Multiple the 1st terms from each of the parantheses 
+x * x = x^2 -> result1
+Next we do (1st terms of 1st parantheses * 2nd terms of 2nd parantheses)
+x * 3 = 3x -> result2
+Next we do (2nd terms of 1st parantheses * 1st terms of 2nd parantheses)
+-3 * x = -3x -> result3
+Lastly we Multiple the 2nd terms from each of the parantheses  
+-3 * 3 = -9 -> result4
+
+Arranged the result as following:
+result1 + result2 + result3 + result4
+x^2 + 3x + (-3)x + (-9) ==
+x^2 + 0x^1 + (-9) ==
+x^2 - 9
+
+This is proof that the factor of x^2 - 9 is (x - 3)(x + 3)
+##############################
+
+to solve 2 degree:
+discriminant formula : b^2 - 4ac
+quadratic equation (or 2nd degree polynomials) formula :
+-b + sqrt(discriminant) / 2a
+-b - sqrt(discriminant) / 2a
+source: https://www.mathsisfun.com/algebra/quadratic-equation.html
+
+Positive discriminant:
+"5 * X ^ 0 + 13 * X ^ 1 + 3 * X ^ 2 = 1 * X^0 + 1 * X^1"
+
+Null discriminant:
+"6 * X ^ 0 + 11 * X ^ 1 + 5 * X ^ 2 = 1 * X ^ 0 + 1 * X ^ 1"
+
+Negative discriminant:
+"5 * X ^ 0 + 3 * X ^ 1 + 3 * X ^ 2 = 1 * X ^ 0 + 0 * X^1"
+
+to solve 0 degree:
+if the reduced form ends up as 0 = 0, all real number is answer, (this could happens to degree 1 and degree 2 as well)
+if both side is not equal, means there is no solution
+example : 4 * X ^ 0 = 8 * X ^ 0
+reduced form = - 4 * X^0 = 0 or - 4 = 0
+both side is not equal, therefore no solution
+
+to solve 1 degree:
+5 * X^0 + 4 * X^1 = 4 * X^0
+reduced form = 1 * X^0 + 4 * X^1 = 0
+or 1 + 4x = 0
+4x = -1
+x = -1/4
+
+
