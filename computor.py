@@ -9,6 +9,4 @@ if __name__ == '__main__':
     expression = parseArgv(sys.argv)
     if (expression):
         expression.solver()
-    # else:
-    #     ft_exit_program_error(error_case['WRONG_USAGE'])
 
