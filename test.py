@@ -14,6 +14,15 @@ from expression_parser import *
 "1 * x^1" or "x^1" or "1x"
 "2 * x^1" or "2x^1" or "2x"
 
+# bonus 1
+# error handling
+# show where the error is when the flag is -e
+# show solving step when the flag is -s
+# can combine flag
+# if the flag is unkown, it will be ignored
+# can accept other alphabet as variable
+# can accept both the uppercase and lowercase of the same alphabet
+
 
 
 if __name__ == '__main__':

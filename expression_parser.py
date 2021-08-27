@@ -102,9 +102,8 @@ def parseArgv(argv):
         input = exp
         formattedInput = input.replace(' ', '')
         if (formattedInput == ''):
-            return
+            ft_exit_program_error(error_case['WRONG_USAGE'])
         checkUnsupportedSign(formattedInput, options)
-
         termsList = getTermsList(formattedInput, options)
         expression = Expression(termsList, options)
         return expression
