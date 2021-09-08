@@ -52,7 +52,6 @@ class Expression:
         return newExp, a, b, c
 
     def getDiscriminant(self):
-        discriminant = 0
         discriminant = ft_power(self.b, 2) - 4 * self.a * self.c
         return discriminant
 
